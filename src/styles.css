@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    height: 100%;
+}
+ 
+html {
+    height: 100%;
+}
+
+#map {
+    position: absolute;
+    float: left;
+    /*top: 1%;*/
+    height: 98%;
+    width: 100%;
+    z-index: 1;
+}
